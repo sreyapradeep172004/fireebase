@@ -1,3 +1,4 @@
+import 'package:firebase/welcome.dart';
 import 'package:flutter/material.dart';
 
 class SignUp extends StatefulWidget {
@@ -90,8 +91,8 @@ class _SignUpState extends State<SignUp> {
               ),
               SizedBox(height: 20,),
               ElevatedButton(onPressed: (){
-
-              }, child: Text('sign up'),style: TextButton.styleFrom(backgroundColor: Colors.blue),),
+                Navigator.push(context, MaterialPageRoute(builder: (context) => Welcome(),));
+                }, child: Text('sign up'),style: TextButton.styleFrom(backgroundColor: Colors.blue),),
               SizedBox(height: 20,),
               ElevatedButton(onPressed: (){
 

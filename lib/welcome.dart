@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-class Welcome extends StatefulWidget {
+class    extends StatefulWidget {
   const Welcome({super.key});
 
   @override

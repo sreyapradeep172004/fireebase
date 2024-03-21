@@ -4,7 +4,7 @@ import 'package:firebase/welcome.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(home:Login()));
+  runApp(MaterialApp(home:SignUp()));
 }
 
 
